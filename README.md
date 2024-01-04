@@ -4,13 +4,13 @@ Welcome to the Power BI Shipping Company Dashboard project! This dashboard provi
 
 ## Project Overview
 
-This project focuses on creating a comprehensive dashboard for a shipping company. It leverages a star schema, where the fact table, `fact_Sale`, is at the center, connected to dimension tables such as `dim_table`, `dim_counter`, `dim_product`, and a custom `dim_Date` table.
+This project focuses on creating a comprehensive dashboard for a shipping company. It leverages a star schema, where the fact table, `fact_Sale`, is at the center, connected to dimension tables such as `dim_Currency`, `dim_Customer`, `dim_Product`, and a custom `dim_Date` table.
 
 ## Project Structure
 
-- **dim_table:** Dimension table containing currency information.
-- **dim_counter:** Dimension table with customer details.
-- **dim_product:** Dimension table with product details.
+- **dim_Currency:** Dimension table containing currency information.
+- **dim_Customer:** Dimension table with customer details.
+- **dim_Product:** Dimension table with product details.
 - **fact_Sale:** Fact table containing sales data.
 - **dim_Date:** Custom dimension table with date-related information.
 
@@ -49,10 +49,12 @@ To explore the dashboard, follow these steps:
 # Screenshots
 
 - **Sales Overview Dashboard:**
-  - *Description of the Sales Overview dashboard.*
+  - <img width="625" alt="Dashboard Screenshot 1" src="https://github.com/josephpenielk/shipping-company-dashboard-powerbi/assets/65491428/1308d58d-22ed-4bc4-9bb5-9cba1c55fd66">
 
-- **Customer Insights Dashboard:**
-  - *Description of the Customer Insights dashboard.*
+
+- **Female Customer Insights Dashboard:**
+  - <img width="631" alt="Dashboard Screenshot 2" src="https://github.com/josephpenielk/shipping-company-dashboard-powerbi/assets/65491428/32912075-fa24-4c5b-b19e-dc497befa3fb">
+
 
 # Feedback
 
